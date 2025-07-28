@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "engines": {
+    "node": "24",
+    "pnpm": "10"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node ./src/main.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@anthropic-ai/sdk": "^0.57.0",
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "@types/node": "^24.1.0",
+    "ai": "^4.3.19"
+  }
+}
